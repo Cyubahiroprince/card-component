@@ -1,0 +1,79 @@
+*
+{
+padding: 0;
+margin: 0;
+text-decoration: none;
+}
+body
+{
+background-color: rgb(245, 238, 238);
+width: 100;
+}
+.container
+{
+   display: flex;
+   max-width: 960px;
+   margin: 10px;
+   border-radius: 5px;
+   padding: 50px;
+}
+.wrapper
+{
+   display: flex;
+   justify-content: center;
+}
+.side
+{
+padding: 40px;
+color:  hsla(0, 0%, 100%, 0.75);
+font-size: 15px;
+}
+.side h3
+{
+padding: 25px 25px 25px 0;
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.one
+{
+   background:  hsl(31, 77%, 52%);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   
+}
+.two
+{
+background:  hsl(184, 100%, 22%);
+
+}
+.three
+{
+   background: hsl(179, 100%, 13%);
+     border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.btn 
+{
+   width: 90px;
+   padding: 10px;
+   border: 1px solid  hsla(0, 0%, 100%, 0.75);
+   border-radius: 50px;
+   margin: 100px 20px 15px 20px;  
+}
+.btn span
+{
+   color: hsla(0, 0%, 100%, 0.75);
+}
+.btn:hover
+{
+   background-color:hsla(0, 0%, 100%, 0.75);
+}
+@media screen and (max-width:650px)
+{
+   
+.wrapper
+{
+display: flex;
+flex-direction: column;
+}
+}

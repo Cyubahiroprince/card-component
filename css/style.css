@@ -59,6 +59,7 @@ background:  hsl(184, 100%, 22%);
    border: 1px solid  hsla(0, 0%, 100%, 0.75);
    border-radius: 50px;
    margin: 100px 20px 15px 20px;  
+   text-align:center;
 }
 .btn span
 {

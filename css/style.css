@@ -22,6 +22,10 @@ width: 100;
    display: flex;
    justify-content: center;
 }
+p
+{
+   font-family: 'Big Shoulders Display';font-size: 15px;
+}
 .side
 {
 padding: 40px;
